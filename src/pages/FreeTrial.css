@@ -1,0 +1,52 @@
+.free-trial-page {
+  background-color: var(--bg-color);
+}
+
+.trial-form-card {
+  padding: 60px;
+  border: 1px solid rgba(255, 0, 0, 0.2);
+}
+
+.trial-form-card h2 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.trial-form-card h2 span {
+  color: var(--primary-color);
+}
+
+.trial-form-card .form-label {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 600;
+}
+
+.trial-feature-item {
+  position: relative;
+}
+
+.trial-feature-item .number {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.05);
+  display: block;
+}
+
+.trial-feature-item p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .trial-form-card {
+    padding: 30px;
+  }
+}

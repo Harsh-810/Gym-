@@ -1,0 +1,37 @@
+.cta-section {
+  padding-bottom: 80px;
+  background-color: var(--bg-color);
+}
+
+.cta-wrapper {
+  padding: 60px;
+  border: 1px solid rgba(255, 0, 0, 0.3);
+  box-shadow: 0 0 30px rgba(255, 0, 0, 0.1);
+}
+
+.cta-wrapper h2 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.cta-wrapper h2 span {
+  color: var(--primary-color);
+}
+
+.cta-wrapper p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+@media (max-width: 991px) {
+  .cta-wrapper {
+    padding: 40px;
+    text-align: center;
+  }
+  .cta-wrapper h2 {
+    font-size: 2rem;
+  }
+}

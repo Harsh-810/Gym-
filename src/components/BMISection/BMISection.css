@@ -1,0 +1,64 @@
+.bmi-section {
+  background-color: var(--secondary-bg);
+}
+
+.glass-input {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.glass-input:focus {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: var(--primary-color);
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+  color: white;
+}
+
+.result-card {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.bmi-val {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--primary-color);
+  display: block;
+}
+
+.bmi-status {
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+}
+
+.bmi-status.normal-weight { color: #00ff00; }
+.bmi-status.overweight { color: #ffff00; }
+.bmi-status.obese { color: #ff0000; }
+.bmi-status.underweight { color: #00ffff; }
+
+.bmi-table {
+  padding: 40px;
+}
+
+.bmi-table h3 {
+  margin-bottom: 30px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.bmi-table table th {
+  color: var(--primary-color);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.bmi-table table td {
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}

@@ -1,0 +1,117 @@
+.footer-section {
+  background-color: var(--secondary-bg);
+  color: white;
+  border-top: 1px solid rgba(255, 0, 0, 0.1);
+}
+
+.footer-about h3 {
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.footer-about h3 span {
+  color: var(--primary-color);
+}
+
+.footer-about p {
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.footer-social {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-social a {
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.05);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: var(--transition-smooth);
+  text-decoration: none;
+}
+
+.footer-social a:hover {
+  background: var(--primary-color);
+  box-shadow: 0 0 15px var(--accent-glow);
+}
+
+.footer-links h4, .footer-contact h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.footer-links h4::after, .footer-contact h4::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background: var(--primary-color);
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 12px;
+}
+
+.footer-links ul li a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  transition: var(--transition-smooth);
+}
+
+.footer-links ul li a:hover {
+  color: var(--primary-color);
+  padding-left: 10px;
+}
+
+.footer-contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-contact ul li {
+  margin-bottom: 15px;
+  color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.footer-contact .icon {
+  color: var(--primary-color);
+  margin-top: 5px;
+}
+
+.newsletter .form-control {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+  padding: 10px 15px;
+}
+
+.newsletter .form-control:focus {
+  box-shadow: none;
+  border-color: var(--primary-color);
+}
+
+.footer-bottom p {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 0.9rem;
+}
